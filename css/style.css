@@ -1,0 +1,573 @@
+/*HEADERISSSSS */
+
+header
+{
+    background-image: url(../img1/firstBackround.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+.drawer-body
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.drawer-body a
+{
+    color:#000000;
+}
+
+header h1
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+    color: #000000;
+}
+
+header p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    padding: 5px;
+}
+.box
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box-input
+{
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.box-input:focus
+{
+    outline: none;
+}
+
+.btn
+{
+    width: 136px;
+    height: 61px;
+    padding: 20px;
+}
+
+.btn-signup
+{
+  background-color: #ff4b4b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 500;
+    border-radius: 8px;  
+}
+
+@media(max-width: 768px)
+{
+    .card-body
+    {
+        text-align: center;
+    }
+
+}
+
+
+/*MAINAS PIRMAS SECTION */
+
+.sectionOne
+{
+    gap: 20px;
+    padding: 100px;
+}
+
+.sectionOne h2
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.sectionOne p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.5px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.sectionOneRows h3
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.sectionOneRows p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.sectionOneRows
+{
+    padding-bottom: 120px;
+}
+
+/*MAINAS ANTRAS SECTION */
+
+.sectionTwo
+{
+    background-image: linear-gradient(#F84646CC, #F84646CC), url(../img3/image\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F84646;
+    padding: 60px 15px;
+}
+
+
+.sectionText h3
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.sectionText p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sectionTwo p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sectionTwoRows
+{
+    padding-top: 50px;
+}
+
+@media (max-width: 1024px)
+{
+
+    .sectionTwo
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sectionTwoRows p
+    {
+        font-size: 14px;
+        gap: 100px;
+    }
+}
+
+@media(max-width: 767px)
+{   
+    .rotate
+    {
+        transform: rotate(90deg);
+        margin: 20px 0;
+    }
+}
+
+
+/*MAINAS TRECIAS SECTION */
+
+.imageOne, .imageTwo
+{
+    padding: 50px;
+}
+
+.imageOne .row, .imageTwo .row
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 2rem;
+    margin: 0;
+}
+
+.imageOne .row > div, .imageTwo .row > div
+{
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    padding: 0;
+}
+
+.imageOne .row > div:has(.card-body), .imageTwo .row > div:has(.card-body)
+{
+    display: flex;
+}
+
+.imageOne .card-body, .imageTwo .card-body
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.imageOne h2, .imageTwo h2
+{
+    font-size: 64PX;
+    font-family: "Manrope", sans-serif;
+    line-height: 76px;
+    margin: 0;
+    color: #2E2E2E
+}
+
+.imageOne p, .imageTwo p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+}
+
+.cardButton button
+{
+    width: 160px;
+    height: 48px;
+}
+
+@media (max-width: 1119px)
+{
+    .imageOne, .imageTwo
+    {
+        padding: 30px;
+    }
+
+    .imageOne h2, .imageTwo h2
+    {
+        font-size: 4vw;
+        line-height: 1.15;
+    }
+
+    .imageOne p, .imageTwo p
+    {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .cardButton button
+    {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .imageOne .row, .imageTwo .row
+    {
+        flex-direction: column;
+    }
+
+    .imageOne .row
+    {
+        flex-direction: column-reverse;
+    }
+
+    .imageOne .row > div, .imageTwo .row > div
+    {
+        flex: none;
+    }
+
+    .imageOne .card-body, .imageTwo .card-body
+    {
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .imageOne .cardButton, .imageTwo .cardButton
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageOne img, .imageTwo img
+    {
+        margin: 0 auto;
+    }
+
+    .imageOne h2, .imageTwo h2
+    {
+        font-size: 64PX;
+        font-family: "Manrope", sans-serif;
+        line-height: 76px;
+        margin: 0;
+        color: #2E2E2E
+    }
+
+    .imageOne p, .imageTwo p
+    {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #808080;
+    }
+
+    .imageOne .cardButton, .imageTwo .cardButton
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .imageOne .cardButton button, .imageTwo .cardButton button
+    {
+        width: 100%;
+    }
+}
+
+
+
+/*MAINAS KETVIRTAS SECTION */
+
+.sponsors
+{
+    background-color: #F4F5F7;
+    padding: 50px;
+}
+
+.sponsors img
+{
+    width: 100%;
+    max-width: 170px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 16px;
+    object-fit: contain;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.backroundBorder
+{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 300px;
+    height: 96px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors h3
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+    color: #18191F;
+}
+
+.sponsors p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F
+}
+
+/*MAINAS PENKTAS SECTION */
+
+.sectionFive
+{
+    padding: 90px;
+}
+
+.sectionFive h3
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionFive p
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding: 5px;
+}
+
+.sectionFive button
+{
+    width: 204px;
+    height: 70px;
+    background-color: #F84646;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px)
+{
+    .sponsors h3
+    {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .sponsors p
+    {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .sponsors h3
+    {
+        font-size: 32px;
+        line-height: 40px;
+        overflow-wrap: break-word;
+    }
+
+    .sponsors p
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+
+/*FOOOOOOOOOOTERIS */
+
+footer
+{
+    background-color: #F8464A;
+    padding: 50px;
+}
+
+footer h4
+{
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 22px;
+}
+
+footer a, footer p
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E5E5E5;
+    text-decoration: none;
+    margin-bottom: 22px;
+}
+
+
+footer ul li
+{
+    list-style: none;
+}
+
+
+footer .icons ul
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+@media (max-width: 768px)
+{
+    footer
+    {
+        padding: 30px 20px;
+    }
+
+    footer .row > .col
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .d-flex
+    {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    footer .d-flex p
+    {
+        margin: 0;
+        text-align: center;
+    }
+
+
+    footer .icons ul
+    {
+        justify-content: flex-start;
+        padding-left: 1.5em;
+        margin: 0;
+    }
+}
